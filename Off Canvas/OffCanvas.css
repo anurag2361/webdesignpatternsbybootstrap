@@ -1,0 +1,50 @@
+html,body,main{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+nav{
+	background-color: #E57373;
+	height: 100%;
+	width: 200px;
+	position: absolute;
+	padding-top: 3%;
+	transform : translate(-200px,0);
+    transition : transform 1 ease-in-out;
+}
+.navOpen {
+
+    transform : translate(0,0) !important;
+    transition : transform 1 ease-in-out;
+  }
+  nav a{
+    display: block;
+    color: white;
+    font-size: 1.4em;
+    padding: 5px;
+  }
+nav a:hover {
+    display: block;
+    background-color: #FFCDD2;
+    cursor: pointer;
+  }
+  @media screen and (min-width: 768px) { 
+  	nav {
+      display: block;
+      position: relative;
+      transform : translate(0,0);
+    }
+
+    body{
+      display: flex;
+      flex-flow:row nowrap;
+    }
+
+    main{
+      width: auto;
+      flex-grow :1;
+    }
+ 
+}

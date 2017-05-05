@@ -1,0 +1,22 @@
+.container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  background-color: #E57373;
+}
+
+li {
+  display: block;
+}
+
+@media (max-width: 950px) {
+  ul{
+    display: flex;
+  }
+  .menu li {
+    display: inline;
+    width: 100%;
+    text-align: center;
+  }
+}

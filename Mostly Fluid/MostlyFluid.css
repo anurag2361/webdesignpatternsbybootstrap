@@ -1,0 +1,18 @@
+body{
+	float: left;
+    
+}
+.up{
+	font-size: 1.2em;
+	background-color: #64B5F6;
+}
+.down-l{
+	font-size: 1.1em;
+	background-color: #1976D2;
+	
+}
+.down-r{
+	font-size: 1.1em;
+	background-color: #42A5F5;
+	}
+
